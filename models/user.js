@@ -5,7 +5,7 @@ const bcrypt = require("bcrypt");
 const userSchema = new mongoose.Schema({
   name: {
     type: String,
-    required: true,
+    // required: true,
   },
   // age: {
   //   type: Number,
@@ -23,12 +23,12 @@ const userSchema = new mongoose.Schema({
   // },
   aadharCardNumber: {
     type: Number,
-    required: true,
+    // required: true,
     unqiue: true,
   },
   password: {
     type: String,
-    required: true,
+    // required: true,
   },
   role: {
     type: String,
