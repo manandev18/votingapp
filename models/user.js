@@ -32,8 +32,8 @@ const userSchema = new mongoose.Schema({
   },
   role: {
     type: String,
-    enum: ["voter", "admin"],
-    default: "voter",
+    enum: ["Voter", "Admin"],
+    default: "Voter",
   },
   // isVoted: {
   //   type: Boolean,
